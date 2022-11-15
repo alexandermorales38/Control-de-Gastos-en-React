@@ -2,14 +2,18 @@ import React from 'react'
 import NuevoPresupuesto from './NuevoPresupuesto'
 
 const Header = ({presupuesto, setPresupuesto}) => {
-  return (
-    <header>
-      <NuevoPresupuesto
-        presupuesto={presupuesto}
-        setPresupuesto={setPresupuesto}
-      />
-    </header>
-  )
+
+                return (
+
+                    <header>
+
+                    <NuevoPresupuesto
+                        presupuesto={presupuesto}
+                        setPresupuesto={setPresupuesto}
+                    />
+                    
+                    </header>
+                )
 }
 
 export default Header
